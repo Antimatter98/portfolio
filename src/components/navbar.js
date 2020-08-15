@@ -10,9 +10,9 @@ class NavBar extends Component {
 
     //shorthand for Array.prototype
     [].forEach.call(this.section, (item) => {
-      this.sections[item.id] = item.offsetTop;
+      this.sections[item.id] = item.offsetTop - 50;
       if (item.id === "home") {
-        this.homeOffsetBottom = item.offsetTop;
+        this.homeOffsetBottom = item.offsetTop - 50;
       }
     });
 
