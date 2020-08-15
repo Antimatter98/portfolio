@@ -77,7 +77,11 @@ class Projects extends Component {
               <p className="skills-tag">css3</p>
             </div>
             <div className="project-buttons">
-              <a href="/" className="project-button">
+              <a
+                href="https://www.coronatracker.in/"
+                className="project-button"
+                target="_blank"
+              >
                 Check it out
               </a>
             </div>
@@ -99,7 +103,11 @@ class Projects extends Component {
               <p className="skills-tag">css3</p>
             </div>
             <div className="project-buttons">
-              <a href="/" className="project-button">
+              <a
+                href="https://goa.coronatracker.in/"
+                className="project-button"
+                target="_blank"
+              >
                 Check it out
               </a>
             </div>
