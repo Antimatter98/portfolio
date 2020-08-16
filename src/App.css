@@ -50,6 +50,7 @@ body {
   overflow: auto;
   position: fixed;
   top: 0;
+  transition: 0.1s ease-in-out all;
 }
 
 .navbar a,
